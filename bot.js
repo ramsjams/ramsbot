@@ -78,13 +78,13 @@ var prefix = "-";
  });
 
 client2.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '-daily'){
         message.channel.send('#daily')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '-credits'){
         message.channel.send('#credits')
     }
 });
