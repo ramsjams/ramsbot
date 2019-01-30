@@ -43,7 +43,7 @@ if (message.content === '!spam') {
 
 client.on('message',async message => {
     if(message.content.startsWith("-restart")) {
-        if(message.author.id !== "465570908468412425") return message.reply('You aren\'t the bot owner.');
+        if(message.author.id !== "519117212607578117") return message.reply('You aren\'t the bot owner.');
         message.channel.send('**Restarting.**').then(msg => {
             setTimeout(() => {
                msg.edit('**Restarting..**');
@@ -90,7 +90,7 @@ client2.on('message', message => {
 });
 
 client2.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!spam2') {
+if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -105,7 +105,7 @@ if (message.content === '!spam2') {
 
 client2.on('message',async message => {
     if(message.content.startsWith("-restart")) {
-        if(message.author.id !== "465570908468412425") return message.reply('You aren\'t the bot owner.');
+        if(message.author.id !== "519117212607578117") return message.reply('You aren\'t the bot owner.');
         message.channel.send('**Restarting.**').then(msg => {
             setTimeout(() => {
                msg.edit('**Restarting..**');
